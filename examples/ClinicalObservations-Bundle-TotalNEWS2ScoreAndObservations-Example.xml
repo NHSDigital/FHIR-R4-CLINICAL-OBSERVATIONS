@@ -76,7 +76,6 @@
 				<id value="9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
 				<meta>
 					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
-					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RespiratoryRate-Observation-1"/>-->
 				</meta>
 				<status value="final"/>
 				<category>
@@ -124,7 +123,6 @@
 				<id value="1e4fe18a-e4fb-4e6d-9246-472839623088"/>
 				<meta>
 					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
-					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-HeartRate-Observation-1"/>-->
 				</meta>
 				<status value="final"/>
 				<category>
@@ -178,7 +176,6 @@
 				<meta>
 					<!--Oxygen Saturation-->
 					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
-					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-OxygenSaturation-Observation-1"/>-->
 				</meta>
 				<status value="final"/>
 				<category>
@@ -226,7 +223,6 @@
 				<id value="64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
 				<meta>
 					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
-					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-InspiredOxygen-Observation-1"/>-->
 				</meta>
 				<status value="final"/>
 				<code>
@@ -257,7 +253,6 @@
 				<id value="c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
 				<meta>
 					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
-					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BodyTemperature-Observation-1"/>-->
 				</meta>
 				<status value="final"/>
 				<category>
@@ -305,7 +300,6 @@
 				<id value="e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
 				<meta>
 					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
-					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BloodPressure-Observation-1"/>-->
 				</meta>
 				<status value="final"/>
 				<category>
@@ -393,7 +387,6 @@
 				<id value="84665258-b376-4223-b309-e6716d1303f6"/>
 				<meta>
 					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
-					<!--<profile value="hhttps://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ACPVU-Observation-1"/>-->
 				</meta>
 				<status value="final"/>
 				<code>
