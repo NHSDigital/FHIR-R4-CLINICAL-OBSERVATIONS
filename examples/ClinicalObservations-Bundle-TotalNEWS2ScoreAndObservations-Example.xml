@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="f9121610-eb24-4937-964e-f38976bde4ad"/>
+	<meta>
+		<versionId value="3dbb2740-d3f1-419f-9957-8050be68ea36"/>
+		<lastUpdated value="2018-11-08T13:46:37.969+00:00"/>
+		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Bundle"/>
+	</meta>
+	<type value="searchset"/>
+	<total value="1"/>
+	<entry>
+		<fullUrl value="8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d"/>
+		<resource>
+			<Observation xmlns="http://hl7.org/fhir">
+				<id value="8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+				</meta>
+				<status value="final"/>
+				<category>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+						<code value="survey"/>
+						<display value="Survey"/>
+					</coding>
+				</category>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="1104051000000101"/>
+						<display value="Royal College of Physicians NEWS2 (National Early Warning Score 2) total score"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+				</subject>
+				<effectiveDateTime value="2018-10-04T14:17:59+01:00"/>
+				<performer>
+					<reference value="Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+				</performer>
+				<performer>
+					<reference value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
+				</performer>
+				<valueQuantity>
+					<value value="6"/>
+				</valueQuantity>
+				<hasMember>
+					<reference value="Observation/84665258-b376-4223-b309-e6716d1303f6"/>
+				</hasMember>
+				<hasMember>
+					<reference value="Observation/e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
+				</hasMember>
+				<hasMember>
+					<reference value="Observation/c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
+				</hasMember>
+				<hasMember>
+					<reference value="Observation/64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
+				</hasMember>
+				<hasMember>
+					<reference value="Observation/764d6298-b444-4489-9882-1cf68d969330"/>
+				</hasMember>
+				<hasMember>
+					<reference value="Observation/1e4fe18a-e4fb-4e6d-9246-472839623088"/>
+				</hasMember>
+				<hasMember>
+					<reference value="Observation/9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
+				</hasMember>
+			</Observation>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
+		<resource>
+			<!--Respiratory Rate-->
+			<Observation xmlns="http://hl7.org/fhir">
+				<id value="9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RespiratoryRate-Observation-1"/>-->
+				</meta>
+				<status value="final"/>
+				<category>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+						<code value="vital-signs"/>
+						<display value="Vital Signs"/>
+					</coding>
+				</category>
+				<code>
+					<coding>
+						<system value="http://loinc.org"/>
+						<code value="9279-1"/>
+						<display value="Respiratory Rate"/>
+					</coding>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="86290005"/>
+						<display value="Respiratory rate"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+				</subject>
+				<effectiveDateTime value="2018-10-04T14:17:59+01:00"/>
+				<performer>
+					<reference value="Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+				</performer>
+				<performer>
+					<reference value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
+				</performer>
+				<valueQuantity>
+					<value value="21"/>
+					<unit value="/min"/>
+					<system value="http://unitsofmeasure.org"/>
+				</valueQuantity>
+			</Observation>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="1e4fe18a-e4fb-4e6d-9246-472839623088"/>
+		<resource>
+			<!--Heart Rate-->
+			<Observation xmlns="http://hl7.org/fhir">
+				<id value="1e4fe18a-e4fb-4e6d-9246-472839623088"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-HeartRate-Observation-1"/>-->
+				</meta>
+				<status value="final"/>
+				<category>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+						<code value="vital-signs"/>
+						<display value="Vital Signs"/>
+					</coding>
+				</category>
+				<code>
+					<coding>
+						<system value="http://loinc.org"/>
+						<code value="8867-4"/>
+						<display value="Heart rate"/>
+					</coding>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="364075005"/>
+						<display value="Heart rate"/>
+					</coding>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="78564009"/>
+						<display value="Pulse rate"/>
+						<userSelected value="true"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+				</subject>
+				<effectiveDateTime value="2018-10-04T14:17:59+01:00"/>
+				<performer>
+					<reference value="Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+				</performer>
+				<performer>
+					<reference value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
+				</performer>
+				<valueQuantity>
+					<value value="95"/>
+					<unit value="/min"/>
+					<system value="http://unitsofmeasure.org"/>
+				</valueQuantity>
+			</Observation>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="764d6298-b444-4489-9882-1cf68d969330"/>
+		<resource>
+			<Observation xmlns="http://hl7.org/fhir">
+				<id value="764d6298-b444-4489-9882-1cf68d969330"/>
+				<meta>
+					<!--Oxygen Saturation-->
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-OxygenSaturation-Observation-1"/>-->
+				</meta>
+				<status value="final"/>
+				<category>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+						<code value="vital-signs"/>
+						<display value="Vital Signs"/>
+					</coding>
+				</category>
+				<code>
+					<coding>
+						<system value="http://loinc.org"/>
+						<code value="59408-5"/>
+						<display value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
+					</coding>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="103228002"/>
+						<display value="Hemoglobin saturation with oxygen"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+				</subject>
+				<effectiveDateTime value="2018-10-04T14:17:59+01:00"/>
+				<performer>
+					<reference value="Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+				</performer>
+				<performer>
+					<reference value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
+				</performer>
+				<valueQuantity>
+					<value value="93"/>
+					<unit value="%"/>
+					<system value="http://unitsofmeasure.org"/>
+				</valueQuantity>
+			</Observation>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
+		<resource>
+			<!--Inspired Oxygen-->
+			<Observation xmlns="http://hl7.org/fhir">
+				<id value="64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-InspiredOxygen-Observation-1"/>-->
+				</meta>
+				<status value="final"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="722742002"/>
+						<display value="Breathing room air"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+				</subject>
+				<effectiveDateTime value="2018-10-04T14:17:59+01:00"/>
+				<performer>
+					<reference value="Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+				</performer>
+				<performer>
+					<reference value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
+				</performer>
+			</Observation>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
+		<resource>
+			<!--Body Temperature-->
+			<Observation xmlns="http://hl7.org/fhir">
+				<id value="c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BodyTemperature-Observation-1"/>-->
+				</meta>
+				<status value="final"/>
+				<category>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+						<code value="vital-signs"/>
+						<display value="Vital Signs"/>
+					</coding>
+				</category>
+				<code>
+					<coding>
+						<system value="http://loinc.org"/>
+						<code value="8310-5"/>
+						<display value="Body temperature"/>
+					</coding>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="276885007"/>
+						<display value="Core body temperature"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+				</subject>
+				<effectiveDateTime value="2018-10-04T14:17:59+01:00"/>
+				<performer>
+					<reference value="Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+				</performer>
+				<performer>
+					<reference value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
+				</performer>
+				<valueQuantity>
+					<value value="38.5"/>
+					<unit value="Cel"/>
+					<system value="http://unitsofmeasure.org"/>
+				</valueQuantity>
+			</Observation>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
+		<resource>
+			<!--Blood Pressure-->
+			<Observation xmlns="http://hl7.org/fhir">
+				<id value="e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<!--<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BloodPressure-Observation-1"/>-->
+				</meta>
+				<status value="final"/>
+				<category>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+						<code value="vital-signs"/>
+						<display value="Vital Signs"/>
+					</coding>
+				</category>
+				<code>
+					<coding>
+						<system value="http://loinc.org"/>
+						<code value="85354-9"/>
+						<display value="Blood pressure panel with all children optional"/>
+					</coding>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="75367002"/>
+						<display value="Blood pressure"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+				</subject>
+				<effectiveDateTime value="2018-10-04T14:17:59+01:00"/>
+				<performer>
+					<reference value="Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+				</performer>
+				<performer>
+					<reference value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
+				</performer>
+				<bodySite>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="368209003"/>
+						<display value="Right arm"/>
+					</coding>
+				</bodySite>
+				<component>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="8480-6"/>
+							<display value="Systolic blood pressure"/>
+						</coding>
+						<coding>
+							<system value="http://snomed.info/sct"/>
+							<code value="72313002"/>
+							<display value="Systolic blood pressure"/>
+						</coding>
+					</code>
+					<valueQuantity>
+						<value value="120"/>
+						<unit value="mmHg"/>
+						<system value="http://unitsofmeasure.org"/>
+					</valueQuantity>
+				</component>
+				<component>
+					<code>
+						<coding>
+							<system value="http://loinc.org"/>
+							<code value="8462-4"/>
+							<display value="Diastolic blood pressure"/>
+						</coding>
+						<coding>
+							<system value="http://snomed.info/sct"/>
+							<code value="1091811000000102"/>
+							<display value="Diastolic arterial pressure"/>
+						</coding>
+					</code>
+					<valueQuantity>
+						<value value="60"/>
+						<unit value="mmHg"/>
+						<system value="http://unitsofmeasure.org"/>
+					</valueQuantity>
+				</component>
+			</Observation>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="84665258-b376-4223-b309-e6716d1303f6"/>
+		<resource>
+			<!--ACPVU-->
+			<Observation xmlns="http://hl7.org/fhir">
+				<id value="84665258-b376-4223-b309-e6716d1303f6"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<!--<profile value="hhttps://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ACPVU-Observation-1"/>-->
+				</meta>
+				<status value="final"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="1104441000000107"/>
+						<display value="Alert Confusion Voice Pain Unresponsiveness scale"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+				</subject>
+				<effectiveDateTime value="2018-10-04T14:17:59+01:00"/>
+				<performer>
+					<reference value="Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+				</performer>
+				<performer>
+					<reference value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
+				</performer>
+				<valueCodeableConcept>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="248234008"/>
+						<display value="Mentally alert"/>
+					</coding>
+				</valueCodeableConcept>
+			</Observation>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+		<resource>
+			<Practitioner>
+				<id value="627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/sds-user-id"/>
+					<value value="G61224777"/>
+				</identifier>
+				<name>
+					<family value="Rastall"/>
+					<given value="Paul"/>
+					<prefix value="Dr"/>
+				</name>
+				<telecom>
+					<system value="phone"/>
+					<value value="01136323200"/>
+					<use value="work"/>
+				</telecom>
+				<gender value="male"/>
+			</Practitioner>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="cdaea3db-8b40-41dc-9834-b42503e12382"/>
+		<resource>
+			<Organization>
+				<id value="cdaea3db-8b40-41dc-9834-b42503e12382"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+					<value value="ABC123"/>
+				</identifier>
+				<name value="ANYTOWN ROYAL INFIRMARY"/>
+				<telecom>
+					<system value="phone"/>
+					<value value="01134875516"/>
+				</telecom>
+				<address>
+					<line value="1 High Street"/>
+					<city value="ANYTOWN"/>
+					<postalCode value="LS1 9AM"/>
+				</address>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+		<resource>
+			<Patient>
+				<id value="30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"/>
+				</meta>
+				<identifier>
+					<extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus">
+						<valueCodeableConcept>
+							<coding>
+								<system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus"/>
+								<code value="01"/>
+								<display value="Number present and verified"/>
+							</coding>
+						</valueCodeableConcept>
+					</extension>
+					<system value="https://fhir.nhs.uk/Id/nhs-number"/>
+					<value value="2378954317"/>
+				</identifier>
+				<name>
+					<use value="official"/>
+					<text value="Mr William Smith"/>
+					<family value="SMITH"/>
+					<given value="William"/>
+					<prefix value="Mr"/>
+				</name>
+				<gender value="male"/>
+				<birthDate value="1966-02-04"/>
+				<address>
+					<use value="home"/>
+					<line value="14 Sunny Mews"/>
+					<city value="ANYTOWN"/>
+					<district value="WEST YORKSHIRE"/>
+					<postalCode value="LS17 4NK"/>
+				</address>
+				<maritalStatus>
+					<coding>
+						<system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+						<code value="M"/>
+						<display value="Married"/>
+					</coding>
+				</maritalStatus>
+			</Patient>
+		</resource>
+	</entry>
+</Bundle>
