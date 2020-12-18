@@ -4,7 +4,7 @@
 	<meta>
 		<versionId value="3dbb2740-d3f1-419f-9957-8050be68ea36"/>
 		<lastUpdated value="2018-11-08T13:46:37.969+00:00"/>
-		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Bundle"/>
+		<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle"/>
 	</meta>
 	<type value="searchset"/>
 	<total value="1"/>
@@ -14,7 +14,7 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
 				</meta>
 				<status value="final"/>
 				<category>
@@ -44,27 +44,27 @@
 				<valueQuantity>
 					<value value="6"/>
 				</valueQuantity>
-				<hasMember>
+				<derivedFrom>
 					<reference value="Observation/84665258-b376-4223-b309-e6716d1303f6"/>
-				</hasMember>
-				<hasMember>
+				</derivedFrom>
+				<derivedFrom>
 					<reference value="Observation/e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
-				</hasMember>
-				<hasMember>
+				</derivedFrom>
+				<derivedFrom>
 					<reference value="Observation/c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
-				</hasMember>
-				<hasMember>
+				</derivedFrom>
+				<derivedFrom>
 					<reference value="Observation/64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
-				</hasMember>
-				<hasMember>
+				</derivedFrom>
+				<derivedFrom>
 					<reference value="Observation/764d6298-b444-4489-9882-1cf68d969330"/>
-				</hasMember>
-				<hasMember>
+				</derivedFrom>
+				<derivedFrom>
 					<reference value="Observation/1e4fe18a-e4fb-4e6d-9246-472839623088"/>
-				</hasMember>
-				<hasMember>
+				</derivedFrom>
+				<derivedFrom>
 					<reference value="Observation/9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
-				</hasMember>
+				</derivedFrom>
 			</Observation>
 		</resource>
 	</entry>
@@ -75,7 +75,7 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
 				</meta>
 				<status value="final"/>
 				<category>
@@ -122,7 +122,7 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="1e4fe18a-e4fb-4e6d-9246-472839623088"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
 				</meta>
 				<status value="final"/>
 				<category>
@@ -175,7 +175,7 @@
 				<id value="764d6298-b444-4489-9882-1cf68d969330"/>
 				<meta>
 					<!--Oxygen Saturation-->
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
 				</meta>
 				<status value="final"/>
 				<category>
@@ -222,7 +222,7 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
 				</meta>
 				<status value="final"/>
 				<code>
@@ -252,7 +252,7 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
 				</meta>
 				<status value="final"/>
 				<category>
@@ -299,7 +299,7 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
 				</meta>
 				<status value="final"/>
 				<category>
@@ -386,7 +386,7 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="84665258-b376-4223-b309-e6716d1303f6"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
 				</meta>
 				<status value="final"/>
 				<code>
@@ -422,7 +422,7 @@
 			<Practitioner>
 				<id value="627be677-3eb2-4db4-9570-5669fd8c92f5"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Practitioner"/>
 				</meta>
 				<identifier>
 					<system value="https://fhir.nhs.uk/Id/sds-user-id"/>
@@ -448,7 +448,7 @@
 			<Organization>
 				<id value="cdaea3db-8b40-41dc-9834-b42503e12382"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Organization"/>
 				</meta>
 				<identifier>
 					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
@@ -473,13 +473,13 @@
 			<Patient>
 				<id value="30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient"/>
 				</meta>
 				<identifier>
-					<extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus">
+					<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus">
 						<valueCodeableConcept>
 							<coding>
-								<system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus"/>
+								<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatus"/>
 								<code value="01"/>
 								<display value="Number present and verified"/>
 							</coding>
