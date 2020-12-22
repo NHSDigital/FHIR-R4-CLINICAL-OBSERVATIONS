@@ -16,6 +16,10 @@
 				<meta>
 					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
 				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="ea45c120-504f-40f2-a79f-cb8cd3dd1307"/>
+				</identifier>
 				<status value="final"/>
 				<category>
 					<coding>
@@ -43,6 +47,8 @@
 				</performer>
 				<valueQuantity>
 					<value value="6"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="score"/>
 				</valueQuantity>
 				<derivedFrom>
 					<reference value="Observation/84665258-b376-4223-b309-e6716d1303f6"/>
@@ -75,8 +81,12 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
 				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="15135902-f182-4b73-a53d-f621670194be"/>
+				</identifier>
 				<status value="final"/>
 				<category>
 					<coding>
@@ -122,8 +132,12 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="1e4fe18a-e4fb-4e6d-9246-472839623088"/>
 				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="4116b813-04a5-45cd-921e-d2440c279691"/>
+				</identifier>
 				<status value="final"/>
 				<category>
 					<coding>
@@ -175,8 +189,12 @@
 				<id value="764d6298-b444-4489-9882-1cf68d969330"/>
 				<meta>
 					<!--Oxygen Saturation-->
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="6a678f52-5537-405e-bfc3-44d581e2eeeb"/>
+				</identifier>
 				<status value="final"/>
 				<category>
 					<coding>
@@ -222,8 +240,12 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
 				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="5e98f67b-b9b0-449b-b9f4-19356a7e6dde"/>
+				</identifier>
 				<status value="final"/>
 				<code>
 					<coding>
@@ -252,8 +274,12 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
 				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="7a03591c-a917-4f38-828c-bacaa8f4db49"/>
+				</identifier>
 				<status value="final"/>
 				<category>
 					<coding>
@@ -299,8 +325,12 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
 				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="4920f0d7-1dd8-4556-b3ed-354074aa4c83"/>
+				</identifier>
 				<status value="final"/>
 				<category>
 					<coding>
@@ -386,8 +416,12 @@
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="84665258-b376-4223-b309-e6716d1303f6"/>
 				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="8050e0ee-0c5b-4405-b9a1-e8420306b35f"/>
+				</identifier>
 				<status value="final"/>
 				<code>
 					<coding>
