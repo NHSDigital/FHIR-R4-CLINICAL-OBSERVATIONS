@@ -311,7 +311,7 @@
 					<reference value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
 				</performer>
 				<valueQuantity>
-					<value value="38.5"/>
+					<value value="37.5"/>
 					<unit value="Cel"/>
 					<system value="http://unitsofmeasure.org"/>
 				</valueQuantity>

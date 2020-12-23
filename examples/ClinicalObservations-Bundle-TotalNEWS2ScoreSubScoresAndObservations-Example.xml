@@ -71,7 +71,7 @@
 				<derivedFrom>
 					<reference value="Observation/dbf6ec86-ebd7-4490-8586-596328519ed2"/>
 				</derivedFrom>
-				<!--Respiratory Rate Sub Score-->
+				<!--Respiratory Rate Sub-Score-->
 				<component>
 					<code>
 						<coding>
@@ -86,7 +86,7 @@
 						<code value="score"/>
 					</valueQuantity>
 				</component>
-				<!--Pulse Sub Score-->
+				<!--Pulse Sub-Score-->
 				<component>
 					<code>
 						<coding>
@@ -101,7 +101,7 @@
 						<code value="score"/>
 					</valueQuantity>
 				</component>
-				<!--Oxygen Saturation scale 1 Sub Score-->
+				<!--Oxygen Saturation scale 1 Sub-Score-->
 				<component>
 					<code>
 						<coding>
@@ -116,7 +116,7 @@
 						<code value="score"/>
 					</valueQuantity>
 				</component>
-				<!--Air or Oxygen Sub Score-->
+				<!--Air or Oxygen Sub-Score-->
 				<component>
 					<code>
 						<coding>
@@ -131,7 +131,7 @@
 						<code value="score"/>
 					</valueQuantity>
 				</component>
-				<!--Temperature Sub Score-->
+				<!--Temperature Sub-Score-->
 				<component>
 					<code>
 						<coding>
@@ -146,7 +146,7 @@
 						<code value="score"/>
 					</valueQuantity>
 				</component>
-				<!--Systolic Blood Pressure Sub Score-->
+				<!--Systolic Blood Pressure Sub-Score-->
 				<component>
 					<code>
 						<coding>
@@ -161,7 +161,7 @@
 						<code value="score"/>
 					</valueQuantity>
 				</component>
-				<!-- Consciousness Sub Score-->
+				<!-- Consciousness Sub-Score-->
 				<component>
 					<code>
 						<coding>
@@ -416,7 +416,7 @@
 					<reference value="Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"/>
 				</performer>
 				<valueQuantity>
-					<value value="38.5"/>
+					<value value="37.5"/>
 					<unit value="Cel"/>
 					<system value="http://unitsofmeasure.org"/>
 				</valueQuantity>
