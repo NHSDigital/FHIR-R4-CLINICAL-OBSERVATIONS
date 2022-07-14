@@ -3,7 +3,7 @@ python = "^3.8"
 
 
 [tool.poetry]
-name = "e-referrals-service-api"
+name = "clinical-observations"
 version = "0.0.1-alpha"
 description = "TODO"
 
@@ -15,7 +15,7 @@ authors = [
 
 readme = 'README.md'
 
-repository = "https://github.com/NHSDigital/NHSDigital-FHIR-Medicines-FHIRPackage"
+repository = "https://github.com/NHSDigital/FHIR-R4-CLINICAL-OBSERVATIONS"
 homepage = ""
 
 keywords = ["healthcare", "uk", "nhs"] #TODO add additional keywords
