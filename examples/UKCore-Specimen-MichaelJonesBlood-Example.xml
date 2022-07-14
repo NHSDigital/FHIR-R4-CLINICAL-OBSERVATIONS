@@ -3,7 +3,6 @@
     <meta>
         <versionId value="9600a22e-d2ef-4456-b1a9-dba8c4b4d2f5" />
         <lastUpdated value="2022-07-14T13:57:51.740+00:00" />
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Specimen" />
     </meta>
     <text>
         <status value="generated" />
