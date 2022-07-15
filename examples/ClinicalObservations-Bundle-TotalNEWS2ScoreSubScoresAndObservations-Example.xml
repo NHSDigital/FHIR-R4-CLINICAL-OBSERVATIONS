@@ -48,7 +48,7 @@
 				<valueQuantity>
 					<value value="6"/>
 					<system value="http://unitsofmeasure.org"/>
-					<code value="score"/>
+					<code value="{ScoreOf}"/>
 				</valueQuantity>
 				<derivedFrom>
 					<reference value="Observation/fc6c6fa5-d8e8-4634-a19a-985325077cb2"/>
@@ -83,7 +83,7 @@
 					<valueQuantity>
 						<value value="2"/>
 						<system value="http://unitsofmeasure.org"/>
-						<code value="score"/>
+						<code value="{ScoreOf}"/>
 					</valueQuantity>
 				</component>
 				<!--Pulse Sub-Score-->
@@ -98,7 +98,7 @@
 					<valueQuantity>
 						<value value="1"/>
 						<system value="http://unitsofmeasure.org"/>
-						<code value="score"/>
+						<code value="{ScoreOf}"/>
 					</valueQuantity>
 				</component>
 				<!--Oxygen Saturation scale 1 Sub-Score-->
@@ -113,7 +113,7 @@
 					<valueQuantity>
 						<value value="2"/>
 						<system value="http://unitsofmeasure.org"/>
-						<code value="score"/>
+						<code value="{ScoreOf}"/>
 					</valueQuantity>
 				</component>
 				<!--Air or Oxygen Sub-Score-->
@@ -128,7 +128,7 @@
 					<valueQuantity>
 						<value value="0"/>
 						<system value="http://unitsofmeasure.org"/>
-						<code value="score"/>
+						<code value="{ScoreOf}"/>
 					</valueQuantity>
 				</component>
 				<!--Temperature Sub-Score-->
@@ -143,7 +143,7 @@
 					<valueQuantity>
 						<value value="1"/>
 						<system value="http://unitsofmeasure.org"/>
-						<code value="score"/>
+						<code value="{ScoreOf}"/>
 					</valueQuantity>
 				</component>
 				<!--Systolic Blood Pressure Sub-Score-->
@@ -158,7 +158,7 @@
 					<valueQuantity>
 						<value value="0"/>
 						<system value="http://unitsofmeasure.org"/>
-						<code value="score"/>
+						<code value="{ScoreOf}"/>
 					</valueQuantity>
 				</component>
 				<!-- Consciousness Sub-Score-->
@@ -173,7 +173,7 @@
 					<valueQuantity>
 						<value value="0"/>
 						<system value="http://unitsofmeasure.org"/>
-						<code value="score"/>
+						<code value="{ScoreOf}"/>
 					</valueQuantity>
 				</component>
 			</Observation>
