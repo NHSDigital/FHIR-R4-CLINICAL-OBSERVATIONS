@@ -1,0 +1,102 @@
+<Specimen xmlns="http://hl7.org/fhir">
+    <id value="345c468e-3004-4a0d-a24e-5a3fecd08925" />
+    <meta>
+        <versionId value="9600a22e-d2ef-4456-b1a9-dba8c4b4d2f5" />
+        <lastUpdated value="2022-07-14T13:57:51.740+00:00" />
+    </meta>
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                <b>Generated Narrative</b>
+            </p>
+            <div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%">
+                <p style="margin-bottom: 0px">Resource UKCore-Specimen-MichaelJonesBlood-Example</p>
+            </div>
+        </div>
+    </text>
+    <identifier>
+        <system value="https://www.christie.nhs.uk/path" />
+        <value value="Spec123456" />
+    </identifier>
+    <status value="available" />
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="87612001" />
+            <display value="Blood (substance)" />
+        </coding>
+    </type>
+    <subject>
+        <reference value="https://server.fire.ly/Patient/UKCore-Patient-MichealJones-Example" />
+    </subject>
+    <receivedTime value="2022-07-13T09:00:00Z" />
+    <request>
+        <reference value="https://server.fire.ly/ServiceRequest/UKCore-ServiceRequest-MichaelJonesDYPDRequest-Example" />
+    </request>
+    <collection>
+        <collector>
+            <reference value="https://server.fire.ly/Practitioner/UKCore-Practitioner-MaryLane-Example" />
+        </collector>
+        <collectedDateTime value="2022-07-11T09:00:00Z" />
+        <quantity>
+            <value value="2.5" />
+            <system value="http://unitsofmeasure.org" />
+            <code value="mL" />
+        </quantity>
+        <method>
+            <coding>
+                <system value="http://snomed.info/sct" />
+                <code value="129300006" />
+                <display value="Puncture - action" />
+            </coding>
+        </method>
+        <bodySite>
+            <coding>
+                <system value="http://snomed.info/sct" />
+                <code value="14975008" />
+                <display value="Forearm structure (body structure)" />
+            </coding>
+        </bodySite>
+    </collection>
+    <processing>
+        <description value="Populated when sample is processed" />
+    </processing>
+    <container>
+        <identifier>
+            <use value="official" />
+            <type>
+                <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+                    <code value="ACSN" />
+                    <display value="Accession ID" />
+                </coding>
+            </type>
+            <system value="https://www.christie.nhs.uk/path" />
+            <value value="ASCN123456" />
+            <assigner>
+                <reference value="https://server.fire.ly/Organization/UKCore-Organization-RBV-Example" />
+            </assigner>
+        </identifier>
+        <type>
+            <coding>
+                <system value="http://snomed.info/sct" />
+                <code value="706067003" />
+                <display value="Blood collection/transfer device (physical object)" />
+            </coding>
+        </type>
+        <specimenQuantity>
+            <value value="2.5" />
+            <system value="http://unitsofmeasure.org" />
+            <code value="mL" />
+        </specimenQuantity>
+    </container>
+    <condition>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0493" />
+            <code value="SNR" />
+            <display value="Sample not received" />
+        </coding>
+        <text value="change code if sample condition changes" />
+    </condition>
+</Specimen>
