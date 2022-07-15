@@ -187,10 +187,10 @@
 		<resource>
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="764d6298-b444-4489-9882-1cf68d969330"/>
-				<meta>
-					<!--Oxygen Saturation-->
-					<!--<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>-->
-				</meta>
+				<!--Oxygen Saturation-->
+				<!--<meta>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
+				</meta>-->
 				<identifier>
 					<system value="https://tools.ietf.org/html/rfc4122"/>
 					<value value="6a678f52-5537-405e-bfc3-44d581e2eeeb"/>
