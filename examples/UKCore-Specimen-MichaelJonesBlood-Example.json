@@ -2,9 +2,6 @@
     "resourceType": "Specimen",
     "id": "345c468e-3004-4a0d-a24e-5a3fecd08925",
     "meta": {
-        "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Specimen"
-        ],
         "versionId": "9600a22e-d2ef-4456-b1a9-dba8c4b4d2f5",
         "lastUpdated": "2022-07-14T13:57:51.740+00:00"
     },
