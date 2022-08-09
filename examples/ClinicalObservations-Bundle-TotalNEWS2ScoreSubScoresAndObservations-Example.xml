@@ -626,7 +626,7 @@
 						<valueCodeableConcept>
 							<coding>
 								<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatus"/>
-								<code value="01"/>
+								<code value="number-present-and-verified"/>
 								<display value="Number present and verified"/>
 							</coding>
 						</valueCodeableConcept>
@@ -652,7 +652,7 @@
 				</address>
 				<maritalStatus>
 					<coding>
-						<system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+						<system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
 						<code value="M"/>
 						<display value="Married"/>
 					</coding>
