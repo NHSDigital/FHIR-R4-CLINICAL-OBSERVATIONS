@@ -77,9 +77,9 @@
 	<entry>
 		<fullUrl value="9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
 		<resource>
-			<!--Respiratory Rate-->
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
+				<!--Respiratory Rate-->
 				<!--<meta>
 					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>-->
@@ -128,9 +128,9 @@
 	<entry>
 		<fullUrl value="1e4fe18a-e4fb-4e6d-9246-472839623088"/>
 		<resource>
-			<!--Heart Rate-->
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="1e4fe18a-e4fb-4e6d-9246-472839623088"/>
+				<!--Heart Rate-->
 				<!--<meta>
 					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>-->
@@ -236,9 +236,9 @@
 	<entry>
 		<fullUrl value="64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
 		<resource>
-			<!--Inspired Oxygen-->
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
+				<!--Inspired Oxygen-->
 				<!--<meta>
 					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>-->
@@ -270,9 +270,9 @@
 	<entry>
 		<fullUrl value="c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
 		<resource>
-			<!--Body Temperature-->
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
+				<!--Body Temperature-->
 				<!--<meta>
 					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>-->
@@ -321,9 +321,9 @@
 	<entry>
 		<fullUrl value="e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
 		<resource>
-			<!--Blood Pressure-->
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
+				<!--Blood Pressure-->
 				<!--<meta>
 					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>-->
@@ -412,9 +412,9 @@
 	<entry>
 		<fullUrl value="84665258-b376-4223-b309-e6716d1303f6"/>
 		<resource>
-			<!--ACVPU-->
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="84665258-b376-4223-b309-e6716d1303f6"/>
+				<!--ACVPU-->
 				<!--<meta>
 					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"/>
 				</meta>-->
