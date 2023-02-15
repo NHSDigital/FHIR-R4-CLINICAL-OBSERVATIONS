@@ -1,7 +1,6 @@
 {
   "resourceType": "Observation",
   "id": "TargetOxygenSaturationObservation",
-,
   "identifier": [
     {
       "system": "https://tools.ietf.org/html/rfc4122",
