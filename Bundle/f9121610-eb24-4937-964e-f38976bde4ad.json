@@ -4,9 +4,7 @@
   "meta": {
     "versionId": "3dbb2740-d3f1-419f-9957-8050be68ea36",
     "lastUpdated": "2020-12-23T14:39:37.969+00:00",
-    "profile": [
-      "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle"
-    ]
+  
   },
   "type": "searchset",
   "total": 1,
@@ -16,11 +14,7 @@
       "resource": {
         "resourceType": "Observation",
         "id": "8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
-          ]
-        },
+       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -96,11 +90,7 @@
       "resource": {
         "resourceType": "Observation",
         "id": "dbf6ec86-ebd7-4490-8586-596328519ed2",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"
-          ]
-        },
+      
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -158,11 +148,7 @@
       "resource": {
         "resourceType": "Observation",
         "id": "f0d26102-3a50-4993-9203-6089b625fc2f",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"
-          ]
-        },
+     
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -226,11 +212,7 @@
       "resource": {
         "resourceType": "Observation",
         "id": "1a1273f4-dd78-4bb4-bb98-ed6456caa2a2",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"
-          ]
-        },
+        
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -288,11 +270,7 @@
       "resource": {
         "resourceType": "Observation",
         "id": "c756fd32-f04e-45a9-b02f-2461ed53c736",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"
-          ]
-        },
+      
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -328,11 +306,7 @@
       "resource": {
         "resourceType": "Observation",
         "id": "5a1625e8-938e-4c19-9d3e-a235bfb4b37d",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"
-          ]
-        },
+     
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -390,11 +364,7 @@
       "resource": {
         "resourceType": "Observation",
         "id": "638c6821-eb51-4f1b-b8c0-5269d1df9b7c",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"
-          ]
-        },
+       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -501,11 +471,7 @@
       "resource": {
         "resourceType": "Observation",
         "id": "fc6c6fa5-d8e8-4634-a19a-985325077cb2",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation"
-          ]
-        },
+       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -561,11 +527,7 @@
       "resource": {
         "resourceType": "Practitioner",
         "id": "7096e518-2638-4c00-ab0e-504c20cd50b6",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Practitioner"
-          ]
-        },
+       
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/sds-user-id",
@@ -598,11 +560,7 @@
       "resource": {
         "resourceType": "Organization",
         "id": "25d5ad55-5657-4cbe-9b8b-2e993f19286e",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Organization"
-          ]
-        },
+     
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/ods-organization-code",
@@ -632,11 +590,7 @@
       "resource": {
         "resourceType": "Patient",
         "id": "ad2c58ab-ffab-4366-9c76-b0322e22e881",
-        "meta": {
-          "profile": [
-            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient"
-          ]
-        },
+       
         "identifier": [
           {
             "extension": [

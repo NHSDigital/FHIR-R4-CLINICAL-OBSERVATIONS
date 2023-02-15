@@ -1,11 +1,7 @@
 {
   "resourceType": "Observation",
   "id": "OxygenSaturationObservation",
-  "meta": {
-    "profile": [
-      "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
-    ]
-  },
+
   "identifier": [
     {
       "system": "https://tools.ietf.org/html/rfc4122",
