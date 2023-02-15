@@ -1,11 +1,6 @@
 {
   "resourceType": "Procedure",
   "id": "OxygenDeliveryProcedure",
-  "meta": {
-    "profile": [
-      "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure"
-    ]
-  },
   "identifier": [
     {
       "system": "https://tools.ietf.org/html/rfc4122",
