@@ -3,8 +3,7 @@
   "id": "1b36355c-ee52-4d1a-ae06-45c6f08380td",
   "meta": {
     "versionId": "9b2459d6-ffa8-4ecb-97e5-7bf0fac15e87",
-    "lastUpdated": "2020-12-23T14:39:37.969+00:00",
-   
+    "lastUpdated": "2020-12-23T14:39:37.969+00:00"
   },
   "type": "collection",
   "entry": [
@@ -13,7 +12,6 @@
       "resource": {
         "resourceType": "Observation",
         "id": "21344a45-2660-45d1-9fb3-49e54d14b662",
-       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -244,7 +242,6 @@
       "resource": {
         "resourceType": "Observation",
         "id": "f47cb818-29e1-49db-ae6c-19ddf0303ead",
-       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -302,7 +299,6 @@
       "resource": {
         "resourceType": "Observation",
         "id": "f0d26102-3a50-4993-9203-6089b625fc2f",
-       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -360,7 +356,6 @@
       "resource": {
         "resourceType": "Observation",
         "id": "1a1273f4-dd78-4bb4-bb98-ed6456caa2a2",
-        
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -418,7 +413,6 @@
       "resource": {
         "resourceType": "Observation",
         "id": "c756fd32-f04e-45a9-b02f-2461ed53c736",
-      
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -465,7 +459,6 @@
       "resource": {
         "resourceType": "Observation",
         "id": "5a1625e8-938e-4c19-9d3e-a235bfb4b37d",
-       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -523,7 +516,6 @@
       "resource": {
         "resourceType": "Observation",
         "id": "638c6821-eb51-4f1b-b8c0-5269d1df9b7c",
-       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -621,7 +613,6 @@
       "resource": {
         "resourceType": "Observation",
         "id": "fc6c6fa5-d8e8-4634-a19a-985325077cb2",
-      
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -668,7 +659,6 @@
       "resource": {
         "resourceType": "Practitioner",
         "id": "7096e518-2638-4c00-ab0e-504c20cd50b6",
-      
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/sds-user-id",
@@ -701,7 +691,6 @@
       "resource": {
         "resourceType": "Organization",
         "id": "25d5ad55-5657-4cbe-9b8b-2e993f19286e",
-       
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/ods-organization-code",
@@ -731,7 +720,6 @@
       "resource": {
         "resourceType": "Patient",
         "id": "40b4f492-48ed-4181-97a7-452adc31580c",
-        
         "identifier": [
           {
             "extension": [
