@@ -9,7 +9,7 @@
 	<type value="searchset"/>
 	<total value="1"/>
 	<entry>
-		<fullUrl value="8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d"/>
+		<fullUrl value="Observation/8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d"/>
 		<resource>
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d"/>
@@ -75,7 +75,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
+		<fullUrl value="Observation/9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
 		<resource>
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="9639d641-974d-40a9-8a4e-f99ea0d4c3b8"/>
@@ -126,7 +126,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="1e4fe18a-e4fb-4e6d-9246-472839623088"/>
+		<fullUrl value="Observation/1e4fe18a-e4fb-4e6d-9246-472839623088"/>
 		<resource>
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="1e4fe18a-e4fb-4e6d-9246-472839623088"/>
@@ -183,7 +183,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="764d6298-b444-4489-9882-1cf68d969330"/>
+		<fullUrl value="Observation/764d6298-b444-4489-9882-1cf68d969330"/>
 		<resource>
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="764d6298-b444-4489-9882-1cf68d969330"/>
@@ -234,7 +234,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
+		<fullUrl value="Observation/64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
 		<resource>
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="64bf263f-475c-4fce-a5d6-1274ed0e22f7"/>
@@ -268,7 +268,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
+		<fullUrl value="Observation/c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
 		<resource>
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"/>
@@ -319,7 +319,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
+		<fullUrl value="Observation/e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
 		<resource>
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="e273ecfb-4f8f-43ec-aa34-66de58d705fd"/>
@@ -410,7 +410,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="84665258-b376-4223-b309-e6716d1303f6"/>
+		<fullUrl value="Observation/84665258-b376-4223-b309-e6716d1303f6"/>
 		<resource>
 			<Observation xmlns="http://hl7.org/fhir">
 				<id value="84665258-b376-4223-b309-e6716d1303f6"/>
@@ -458,7 +458,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="627be677-3eb2-4db4-9570-5669fd8c92f5"/>
+		<fullUrl value="Practitioner/627be677-3eb2-4db4-9570-5669fd8c92f5"/>
 		<resource>
 			<Practitioner>
 				<id value="627be677-3eb2-4db4-9570-5669fd8c92f5"/>
@@ -484,7 +484,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="cdaea3db-8b40-41dc-9834-b42503e12382"/>
+		<fullUrl value="Organization/cdaea3db-8b40-41dc-9834-b42503e12382"/>
 		<resource>
 			<Organization>
 				<id value="cdaea3db-8b40-41dc-9834-b42503e12382"/>
@@ -509,7 +509,7 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
+		<fullUrl value="Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
 		<resource>
 			<Patient>
 				<id value="30d3de6f-e800-47fa-b610-b02c7c8e9d57"/>
@@ -517,15 +517,6 @@
 					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient"/>
 				</meta>-->
 				<identifier>
-					<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus">
-						<valueCodeableConcept>
-							<coding>
-								<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatus"/>
-								<code value="number-present-and-verified"/>
-								<display value="Number present and verified"/>
-							</coding>
-						</valueCodeableConcept>
-					</extension>
 					<system value="https://fhir.nhs.uk/Id/nhs-number"/>
 					<value value="2378954317"/>
 				</identifier>
@@ -547,7 +538,7 @@
 				</address>
 				<maritalStatus>
 					<coding>
-						<system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+						<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PersonMaritalStatusEngland"/>
 						<code value="M"/>
 						<display value="Married"/>
 					</coding>
