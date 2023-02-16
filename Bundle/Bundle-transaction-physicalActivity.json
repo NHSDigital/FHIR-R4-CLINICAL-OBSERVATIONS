@@ -52,7 +52,7 @@
                         "reference": "urn:uuid:f15d5cc1-a3f1-4780-95ee-c9adada6f9c4"
                     },
                     {
-                        "reference" :"urn:uuid:87b3c664-83dd-4a5e-aba2-6c9f539acefe"
+                        "reference": "urn:uuid:87b3c664-83dd-4a5e-aba2-6c9f539acefe"
                     }
                 ]
             }
@@ -178,7 +178,8 @@
                         "coding": [
                             {
                                 "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-                                "code": "social-history"
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
                             }
                         ]
                     }
@@ -186,9 +187,14 @@
                 "code": {
                     "coding": [
                         {
+                            "system": "http://snomed.info/sct",
+                            "code": "364075005",
+                            "display": "Heart rate"
+                        },
+                        {
                             "system": "http://loinc.org",
-                            "code": "55424-6",
-                            "display": "Calories burned in unspecified time Pedometer"
+                            "code": "8867-4",
+                            "display": "Heart rate"
                         }
                     ]
                 },
@@ -198,12 +204,12 @@
                         "value": "9876543210"
                     }
                 },
-                "effectiveDateTime": "2022-02-15",
+                "effectiveDateTime": "2022-02-15T14:17:59+01:00",
                 "valueQuantity": {
-                    "value": 851,
-                    "unit": "kilocalorie",
+                    "value": 48,
+                    "unit": "heart beats per minute",
                     "system": "http://unitsofmeasure.org",
-                    "code": "kcal"
+                    "code": "{beats}/min"
                 }
             }
         },
@@ -311,6 +317,102 @@
                     "system": "http://unitsofmeasure.org",
                     "code": "kg"
                 }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b9f009bd-5792-410d-96d0-044a68adac06",
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "b9f009bd-5792-410d-96d0-044a68adac06",
+                "identifier": [
+                    {
+                        "system": "https://tools.ietf.org/html/rfc4122",
+                        "value": "b9f009bd-5792-410d-96d0-044a68adac06"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "75367002",
+                            "display": "Blood pressure"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85354-9",
+                            "display": "Blood pressure panel with all children optional"
+                        }
+                    ]
+                },
+                "subject": {
+                    "identifier": {
+                        "system": "https://fhir.nhs.uk/Id/nhs-number",
+                        "value": "9876543210"
+                    }
+                },
+                "effectiveDateTime": "2022-02-15T14:17:59+01:00",
+                "component":  [
+                    {
+                        "code": {
+                            "coding":  [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "72313002",
+                                    "display": "Systolic arterial pressure"
+                                },
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8480-6",
+                                    "display": "Systolic blood pressure"
+                                }
+                            ]
+                        },
+                        "valueQuantity": {
+                            "value": 127,
+                            "unit": "millimeter of mercury",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding":  [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "1091811000000102",
+                                    "display": "Diastolic arterial pressure"
+                                },
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8462-4",
+                                    "display": "Diastolic blood pressure"
+                                }
+                            ]
+                        },
+                        "valueQuantity": {
+                            "value": 77,
+                            "unit": "millimeter of mercury",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    }
+                ]
             }
         }
     ]
