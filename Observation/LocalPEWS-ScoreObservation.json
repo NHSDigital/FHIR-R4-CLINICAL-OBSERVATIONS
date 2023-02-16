@@ -24,8 +24,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "9999015",
-        "display": "Local PEWS total score"
+        "code": "1363261000000104",
+        "display": "NPEWS (National Paediatric Early Warning Score) - total score"
       }
     ]
   },

@@ -24,8 +24,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "9999000",
-        "display": "NPEWS1 - baseline total score"
+        "code": "1365101000000108",
+        "display": "NPEWS (National Paediatric Early Warning Score) - baseline total score"
       }
     ]
   },

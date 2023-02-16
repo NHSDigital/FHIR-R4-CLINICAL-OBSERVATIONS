@@ -24,8 +24,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "9999003",
-        "display": "Level of respiratory distress"
+        "code": "1364081000000103",
+        "display": "NPEWS (National Paediatric Early Warning Score) - level of respiratory distress"
       }
     ]
   },

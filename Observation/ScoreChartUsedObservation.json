@@ -24,8 +24,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "9999001",
-        "display": "NPEWS1 - chart used"
+        "code": "1364091000000101",
+        "display": "NPEWS (National Paediatric Early Warning Score) chart used"
       }
     ]
   },

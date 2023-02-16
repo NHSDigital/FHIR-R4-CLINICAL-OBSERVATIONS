@@ -82,8 +82,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9999004",
-            "display": "NPEWS1 - respiratory distress score"
+            "code": "1363271000000106",
+            "display": "NPEWS (National Paediatric Early Warning Score) - respiration rate score"
           }
         ]
       },
@@ -99,8 +99,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9999002",
-            "display": "NPEWS1 - respiration rate score"
+            "code": "1363301000000109",
+            "display": "NPEWS (National Paediatric Early Warning Score) - respiratory distress score"
           }
         ]
       },
@@ -116,8 +116,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9999005",
-            "display": "NPEWS1 - oxygen saturation score"
+            "code": "1363311000000106",
+            "display": "NPEWS (National Paediatric Early Warning Score) - peripheral oxygen saturation score"
           }
         ]
       },
@@ -133,8 +133,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9999006",
-            "display": "NPEWS1 - air or oxygen score"
+            "code": "1363321000000100",
+            "display": "NPEWS (National Paediatric Early Warning Score) - inspired oxygen score"
           }
         ]
       },
@@ -150,8 +150,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9999008",
-            "display": "NPEWS1 - pulse score"
+            "code": "1363331000000103",
+            "display": "NPEWS (National Paediatric Early Warning Score) - heart rate score"
           }
         ]
       },
@@ -167,8 +167,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9999007",
-            "display": "NPEWS1 - systolic blood pressure score"
+            "code": "1363291000000105",
+            "display": "NPEWS (National Paediatric Early Warning Score) - systolic blood pressure score"
           }
         ]
       },
@@ -184,8 +184,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9999009",
-            "display": "NPEWS1 - capilliary fill time score"
+            "code": "1363341000000107",
+            "display": "NPEWS (National Paediatric Early Warning Score) - capillary refill time score"
           }
         ]
       },
@@ -201,8 +201,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9999010",
-            "display": "NPEWS1 - consciousness score"
+            "code": "1363351000000105",
+            "display": "NPEWS (National Paediatric Early Warning Score) - consciousness score"
           }
         ]
       },
@@ -218,8 +218,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9999011",
-            "display": "NPEWS1 - temperature score"
+            "code": "1363361000000108",
+            "display": "NPEWS (National Paediatric Early Warning Score) - temperature score"
           }
         ]
       },
