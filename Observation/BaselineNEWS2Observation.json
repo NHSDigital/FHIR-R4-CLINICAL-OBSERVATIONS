@@ -24,8 +24,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "9999100",
-        "display": "NEWS2 - baseline total score"
+        "code": "1104051000000101",
+        "display": "Royal College of Physicians NEWS2 (National Early Warning Score 2) total score"
       }
     ]
   },
