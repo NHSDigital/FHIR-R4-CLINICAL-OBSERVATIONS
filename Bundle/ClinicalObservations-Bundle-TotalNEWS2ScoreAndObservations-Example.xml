@@ -6,8 +6,7 @@
 		<lastUpdated value="2020-12-23T14:39:37.969+00:00"/>
 		<!--<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle"/>-->
 	</meta>
-	<type value="searchset"/>
-	<total value="1"/>
+	<type value="collection"/>
 	<entry>
 		<fullUrl value="Observation/8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d"/>
 		<resource>

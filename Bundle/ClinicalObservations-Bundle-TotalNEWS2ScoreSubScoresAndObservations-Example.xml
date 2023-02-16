@@ -5,8 +5,7 @@
 		<versionId value="9b2459d6-ffa8-4ecb-97e5-7bf0fac15e87"/>
 		<lastUpdated value="2020-12-23T14:39:37.969+00:00"/>
 	</meta>
-	<type value="searchset"/>
-	<total value="1"/>
+	<type value="collection"/>
 	<entry>
 		<fullUrl value="Observation/21344a45-2660-45d1-9fb3-49e54d14b662"/>
 		<resource>

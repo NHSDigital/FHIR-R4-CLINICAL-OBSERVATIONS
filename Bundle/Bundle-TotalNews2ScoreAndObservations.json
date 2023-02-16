@@ -1,22 +1,21 @@
 {
   "resourceType": "Bundle",
-  "id": "1b36355c-ee52-4d1a-ae06-45c6f08380df",
+  "id": "f9121610-eb24-4937-964e-f38976bde4ad",
   "meta": {
-    "versionId": "9b2459d6-ffa8-4ecb-97e5-7bf0fac15e87",
+    "versionId": "3dbb2740-d3f1-419f-9957-8050be68ea36",
     "lastUpdated": "2020-12-23T14:39:37.969+00:00"
   },
-  "type": "searchset",
-  "total": 1,
+  "type": "collection",
   "entry": [
     {
-      "fullUrl": "Observation/21344a45-2660-45d1-9fb3-49e54d14b662",
+      "fullUrl": "Observation/8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d",
       "resource": {
         "resourceType": "Observation",
-        "id": "21344a45-2660-45d1-9fb3-49e54d14b662",
+        "id": "8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d",
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
-            "value": "7188c7ad-7802-4d43-9775-4d9d684600d5"
+            "value": "ea45c120-504f-40f2-a79f-cb8cd3dd1307"
           }
         ],
         "status": "final",
@@ -41,15 +40,15 @@
           ]
         },
         "subject": {
-          "reference": "Patient/ad2c58ab-ffab-4366-9c76-b0322e22e881"
+          "reference": "Patient/30d3de6f-e800-47fa-b610-b02c7c8e9d57"
         },
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/627be677-3eb2-4db4-9570-5669fd8c92f5"
           },
           {
-            "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
+            "reference": "Organization/cdaea3db-8b40-41dc-9834-b42503e12382"
           }
         ],
         "valueQuantity": {
@@ -60,145 +59,25 @@
         },
         "derivedFrom": [
           {
-            "reference": "Observation/fc6c6fa5-d8e8-4634-a19a-985325077cb2"
+            "reference": "Observation/84665258-b376-4223-b309-e6716d1303f6"
           },
           {
-            "reference": "Observation/638c6821-eb51-4f1b-b8c0-5269d1df9b7c"
+            "reference": "Observation/e273ecfb-4f8f-43ec-aa34-66de58d705fd"
           },
           {
-            "reference": "Observation/5a1625e8-938e-4c19-9d3e-a235bfb4b37d"
+            "reference": "Observation/c1abbdf5-44fb-4a3d-9027-fc7e62bebabb"
           },
           {
-            "reference": "Observation/c756fd32-f04e-45a9-b02f-2461ed53c736"
+            "reference": "Observation/64bf263f-475c-4fce-a5d6-1274ed0e22f7"
           },
           {
-            "reference": "Observation/1a1273f4-dd78-4bb4-bb98-ed6456caa2a2"
+            "reference": "Observation/764d6298-b444-4489-9882-1cf68d969330"
           },
           {
-            "reference": "Observation/f0d26102-3a50-4993-9203-6089b625fc2f"
+            "reference": "Observation/1e4fe18a-e4fb-4e6d-9246-472839623088"
           },
           {
-            "reference": "Observation/dbf6ec86-ebd7-4490-8586-596328519ed2"
-          }
-        ],
-        "component": [
-          {
-            "code": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "1104301000000104",
-                  "display": "Royal College of Physicians NEWS2 (National Early Warning Score 2) - respiration rate score"
-                }
-              ]
-            },
-            "valueQuantity": {
-              "value": 2,
-              "unit": "ScoreOf",
-              "system": "http://unitsofmeasure.org",
-              "code": "{ScoreOf}"
-            }
-          },
-          {
-            "code": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "1104351000000103",
-                  "display": "Royal College of Physicians NEWS2 (National Early Warning Score 2) - pulse score"
-                }
-              ]
-            },
-            "valueQuantity": {
-              "value": 1,
-              "system": "http://unitsofmeasure.org",
-              "code": "score"
-            }
-          },
-          {
-            "code": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "1104311000000102",
-                  "display": "Royal College of Physicians NEWS2 (National Early Warning Score 2) - oxygen saturation scale 1 score"
-                }
-              ]
-            },
-            "valueQuantity": {
-              "value": 2,
-              "unit": "ScoreOf",
-              "system": "http://unitsofmeasure.org",
-              "code": "{ScoreOf}"
-            }
-          },
-          {
-            "code": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "1104331000000105",
-                  "display": "Royal College of Physicians NEWS2 (National Early Warning Score 2) - air or oxygen score"
-                }
-              ]
-            },
-            "valueQuantity": {
-              "value": 0,
-              "unit": "ScoreOf",
-              "system": "http://unitsofmeasure.org",
-              "code": "{ScoreOf}"
-            }
-          },
-          {
-            "code": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "1104371000000107",
-                  "display": "Royal College of Physicians NEWS2 (National Early Warning Score 2) - temperature score"
-                }
-              ]
-            },
-            "valueQuantity": {
-              "value": 1,
-              "unit": "ScoreOf",
-              "system": "http://unitsofmeasure.org",
-              "code": "{ScoreOf}"
-            }
-          },
-          {
-            "code": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "1104341000000101",
-                  "display": "Royal College of Physicians NEWS2 (National Early Warning Score 2) - systolic blood pressure score"
-                }
-              ]
-            },
-            "valueQuantity": {
-              "value": 0,
-              "unit": "ScoreOf",
-              "system": "http://unitsofmeasure.org",
-              "code": "{ScoreOf}"
-            }
-          },
-          {
-            "code": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "1104361000000100",
-                  "display": "Royal College of Physicians NEWS2 (National Early Warning Score 2) - consciousness score"
-                }
-              ]
-            },
-            "valueQuantity": {
-              "value": 0,
-              "unit": "ScoreOf",
-              "system": "http://unitsofmeasure.org",
-              "code": "{ScoreOf}"
-            }
+            "reference": "Observation/9639d641-974d-40a9-8a4e-f99ea0d4c3b8"
           }
         ]
       }
@@ -628,115 +507,6 @@
               "system": "http://snomed.info/sct",
               "code": "248234008",
               "display": "Mentally alert"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "fullUrl": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6",
-      "resource": {
-        "resourceType": "Practitioner",
-        "id": "7096e518-2638-4c00-ab0e-504c20cd50b6",
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/sds-user-id",
-            "value": "G61224777"
-          }
-        ],
-        "name": [
-          {
-            "family": "Rastall",
-            "given": [
-              "Paul"
-            ],
-            "prefix": [
-              "Dr"
-            ]
-          }
-        ],
-        "telecom": [
-          {
-            "system": "phone",
-            "value": "01136323200",
-            "use": "work"
-          }
-        ],
-        "gender": "male"
-      }
-    },
-    {
-      "fullUrl": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "25d5ad55-5657-4cbe-9b8b-2e993f19286e",
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-            "value": "ABC123"
-          }
-        ],
-        "name": "ANYTOWN ROYAL INFIRMARY",
-        "telecom": [
-          {
-            "system": "phone",
-            "value": "01134875516"
-          }
-        ],
-        "address": [
-          {
-            "line": [
-              "1 High Street"
-            ],
-            "city": "ANYTOWN",
-            "postalCode": "LS1 9AM"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "Patient/ad2c58ab-ffab-4366-9c76-b0322e22e881",
-      "resource": {
-        "resourceType": "Patient",
-        "id": "ad2c58ab-ffab-4366-9c76-b0322e22e881",
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/nhs-number",
-            "value": "9378954317"
-          }
-        ],
-        "name": [
-          {
-            "use": "official",
-            "text": "Mr William Smith",
-            "family": "SMITH",
-            "given": [
-              "William"
-            ],
-            "prefix": [
-              "Mr"
-            ]
-          }
-        ],
-        "gender": "male",
-        "birthDate": "1966-02-04",
-        "address": [
-          {
-            "use": "home",
-            "line": [
-              "14 Sunny Mews"
-            ],
-            "city": "ANYTOWN",
-            "district": "WEST YORKSHIRE",
-            "postalCode": "LS17 4NK"
-          }
-        ],
-        "maritalStatus": {
-          "coding": [
-            {
-              "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-PersonMaritalStatusEngland",
-              "code": "M",
-              "display": "Married"
             }
           ]
         }
