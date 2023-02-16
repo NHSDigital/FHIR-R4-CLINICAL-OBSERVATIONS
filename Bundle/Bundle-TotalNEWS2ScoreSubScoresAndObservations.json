@@ -6,7 +6,6 @@
     "lastUpdated": "2020-12-23T14:39:37.969+00:00"
   },
   "type": "collection",
-  "total": 1,
   "entry": [
     {
       "fullUrl": "Observation/21344a45-2660-45d1-9fb3-49e54d14b662",
@@ -111,8 +110,9 @@
             },
             "valueQuantity": {
               "value": 1,
+              "unit": "ScoreOf",
               "system": "http://unitsofmeasure.org",
-              "code": "score"
+              "code": "{ScoreOf}"
             }
           },
           {

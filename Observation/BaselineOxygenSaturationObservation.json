@@ -25,7 +25,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "927981000000106",
-        "display": "Baseline oxygen saturation at periphery"
+        "display": "Baseline SpO2 (oxygen saturation at periphery)"
       }
     ]
   },
