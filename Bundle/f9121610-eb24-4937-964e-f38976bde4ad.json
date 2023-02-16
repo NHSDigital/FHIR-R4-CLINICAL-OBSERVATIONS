@@ -46,7 +46,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"
+            "reference": "Practitioner/627be677-3eb2-4db4-9570-5669fd8c92f5"
           },
           {
             "reference": "Organization/cdaea3db-8b40-41dc-9834-b42503e12382"
@@ -126,7 +126,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -189,7 +189,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -246,7 +246,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -287,7 +287,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -338,7 +338,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -395,7 +395,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -496,7 +496,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -508,115 +508,6 @@
               "system": "http://snomed.info/sct",
               "code": "248234008",
               "display": "Mentally alert"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "fullUrl": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6",
-      "resource": {
-        "resourceType": "Practitioner",
-        "id": "7096e518-2638-4c00-ab0e-504c20cd50b6",
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/sds-user-id",
-            "value": "G61224777"
-          }
-        ],
-        "name": [
-          {
-            "family": "Rastall",
-            "given": [
-              "Paul"
-            ],
-            "prefix": [
-              "Dr"
-            ]
-          }
-        ],
-        "telecom": [
-          {
-            "system": "phone",
-            "value": "01136323200",
-            "use": "work"
-          }
-        ],
-        "gender": "male"
-      }
-    },
-    {
-      "fullUrl": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "25d5ad55-5657-4cbe-9b8b-2e993f19286e",
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-            "value": "ABC123"
-          }
-        ],
-        "name": "ANYTOWN ROYAL INFIRMARY",
-        "telecom": [
-          {
-            "system": "phone",
-            "value": "01134875516"
-          }
-        ],
-        "address": [
-          {
-            "line": [
-              "1 High Street"
-            ],
-            "city": "ANYTOWN",
-            "postalCode": "LS1 9AM"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "Patient/ad2c58ab-ffab-4366-9c76-b0322e22e881",
-      "resource": {
-        "resourceType": "Patient",
-        "id": "ad2c58ab-ffab-4366-9c76-b0322e22e881",
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/nhs-number",
-            "value": "9378954317"
-          }
-        ],
-        "name": [
-          {
-            "use": "official",
-            "text": "Mr William Smith",
-            "family": "SMITH",
-            "given": [
-              "William"
-            ],
-            "prefix": [
-              "Mr"
-            ]
-          }
-        ],
-        "gender": "male",
-        "birthDate": "1966-02-04",
-        "address": [
-          {
-            "use": "home",
-            "line": [
-              "14 Sunny Mews"
-            ],
-            "city": "ANYTOWN",
-            "district": "WEST YORKSHIRE",
-            "postalCode": "LS17 4NK"
-          }
-        ],
-        "maritalStatus": {
-          "coding": [
-            {
-              "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-PersonMaritalStatusEngland",
-              "code": "M",
-              "display": "Married"
             }
           ]
         }

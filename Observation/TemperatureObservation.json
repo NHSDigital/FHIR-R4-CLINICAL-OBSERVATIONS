@@ -39,7 +39,7 @@
   "effectiveDateTime": "2018-10-04T14:17:59+01:00",
   "performer": [
     {
-      "reference": "Performer/627be677-3eb2-4db4-9570-5669fd8c92f5"
+      "reference": "Practitioner/627be677-3eb2-4db4-9570-5669fd8c92f5"
     },
     {
       "reference": "Organization/cdaea3db-8b40-41dc-9834-b42503e12382"

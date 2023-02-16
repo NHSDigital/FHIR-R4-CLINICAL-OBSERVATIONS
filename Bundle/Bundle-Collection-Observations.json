@@ -45,7 +45,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -280,7 +280,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -337,7 +337,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -394,7 +394,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -446,7 +446,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -497,7 +497,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -554,7 +554,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
@@ -646,7 +646,7 @@
         "effectiveDateTime": "2018-10-04T14:17:59+01:00",
         "performer": [
           {
-            "reference": "Performer/7096e518-2638-4c00-ab0e-504c20cd50b6"
+            "reference": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6"
           },
           {
             "reference": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e"
