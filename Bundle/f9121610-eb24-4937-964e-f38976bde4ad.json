@@ -9,11 +9,10 @@
   "total": 1,
   "entry": [
     {
-      "fullUrl": "8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d",
+      "fullUrl": "Observation/8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d",
       "resource": {
         "resourceType": "Observation",
         "id": "8b8bea2a-b2de-4442-9ecc-d1f8e2e1f42d",
-       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -85,11 +84,10 @@
       }
     },
     {
-      "fullUrl": "dbf6ec86-ebd7-4490-8586-596328519ed2",
+      "fullUrl": "Observation/dbf6ec86-ebd7-4490-8586-596328519ed2",
       "resource": {
         "resourceType": "Observation",
         "id": "dbf6ec86-ebd7-4490-8586-596328519ed2",
-      
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -143,11 +141,10 @@
       }
     },
     {
-      "fullUrl": "f0d26102-3a50-4993-9203-6089b625fc2f",
+      "fullUrl": "Observation/f0d26102-3a50-4993-9203-6089b625fc2f",
       "resource": {
         "resourceType": "Observation",
         "id": "f0d26102-3a50-4993-9203-6089b625fc2f",
-     
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -207,11 +204,10 @@
       }
     },
     {
-      "fullUrl": "1a1273f4-dd78-4bb4-bb98-ed6456caa2a2",
+      "fullUrl": "Observation/1a1273f4-dd78-4bb4-bb98-ed6456caa2a2",
       "resource": {
         "resourceType": "Observation",
         "id": "1a1273f4-dd78-4bb4-bb98-ed6456caa2a2",
-        
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -265,11 +261,10 @@
       }
     },
     {
-      "fullUrl": "c756fd32-f04e-45a9-b02f-2461ed53c736",
+      "fullUrl": "Observation/c756fd32-f04e-45a9-b02f-2461ed53c736",
       "resource": {
         "resourceType": "Observation",
         "id": "c756fd32-f04e-45a9-b02f-2461ed53c736",
-      
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -301,11 +296,10 @@
       }
     },
     {
-      "fullUrl": "5a1625e8-938e-4c19-9d3e-a235bfb4b37d",
+      "fullUrl": "Observation/5a1625e8-938e-4c19-9d3e-a235bfb4b37d",
       "resource": {
         "resourceType": "Observation",
         "id": "5a1625e8-938e-4c19-9d3e-a235bfb4b37d",
-     
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -359,11 +353,10 @@
       }
     },
     {
-      "fullUrl": "638c6821-eb51-4f1b-b8c0-5269d1df9b7c",
+      "fullUrl": "Observation/638c6821-eb51-4f1b-b8c0-5269d1df9b7c",
       "resource": {
         "resourceType": "Observation",
         "id": "638c6821-eb51-4f1b-b8c0-5269d1df9b7c",
-       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -466,11 +459,10 @@
       }
     },
     {
-      "fullUrl": "fc6c6fa5-d8e8-4634-a19a-985325077cb2",
+      "fullUrl": "Observation/fc6c6fa5-d8e8-4634-a19a-985325077cb2",
       "resource": {
         "resourceType": "Observation",
         "id": "fc6c6fa5-d8e8-4634-a19a-985325077cb2",
-       
         "identifier": [
           {
             "system": "https://tools.ietf.org/html/rfc4122",
@@ -522,11 +514,10 @@
       }
     },
     {
-      "fullUrl": "7096e518-2638-4c00-ab0e-504c20cd50b6",
+      "fullUrl": "Practitioner/7096e518-2638-4c00-ab0e-504c20cd50b6",
       "resource": {
         "resourceType": "Practitioner",
         "id": "7096e518-2638-4c00-ab0e-504c20cd50b6",
-       
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/sds-user-id",
@@ -555,11 +546,10 @@
       }
     },
     {
-      "fullUrl": "25d5ad55-5657-4cbe-9b8b-2e993f19286e",
+      "fullUrl": "Organization/25d5ad55-5657-4cbe-9b8b-2e993f19286e",
       "resource": {
         "resourceType": "Organization",
         "id": "25d5ad55-5657-4cbe-9b8b-2e993f19286e",
-     
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/ods-organization-code",
@@ -585,29 +575,14 @@
       }
     },
     {
-      "fullUrl": "ad2c58ab-ffab-4366-9c76-b0322e22e881",
+      "fullUrl": "Patient/ad2c58ab-ffab-4366-9c76-b0322e22e881",
       "resource": {
         "resourceType": "Patient",
         "id": "ad2c58ab-ffab-4366-9c76-b0322e22e881",
-       
         "identifier": [
           {
-            "extension": [
-              {
-                "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatus",
-                      "code": "01",
-                      "display": "Number present and verified"
-                    }
-                  ]
-                }
-              }
-            ],
             "system": "https://fhir.nhs.uk/Id/nhs-number",
-            "value": "2378954317"
+            "value": "9378954317"
           }
         ],
         "name": [
@@ -639,7 +614,7 @@
         "maritalStatus": {
           "coding": [
             {
-              "system": "http://hl7.org/fhir/v3/MaritalStatus",
+              "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-PersonMaritalStatusEngland",
               "code": "M",
               "display": "Married"
             }
