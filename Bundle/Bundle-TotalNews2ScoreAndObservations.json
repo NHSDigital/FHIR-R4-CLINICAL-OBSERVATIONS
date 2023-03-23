@@ -518,35 +518,6 @@
           ]
         }
       }
-    },
-    {
-      "resource": {
-        "resourceType": "Patient",
-        "id": "ad2c58ab-ffab-4366-9c76-b0322e22e881",
-        "name": [
-          {
-            "text": "Mr William Smith"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Practitioner",
-        "id": "7096e518-2638-4c00-ab0e-504c20cd50b6",
-        "name": [
-          {
-            "text": "Dr Paul Rastall"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Organization",
-        "id": "25d5ad55-5657-4cbe-9b8b-2e993f19286e",
-        "name": "Anytown Royal Infirmary"
-      }
     }
   ]
 }
